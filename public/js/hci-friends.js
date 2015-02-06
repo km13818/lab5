@@ -14,7 +14,8 @@ function initializePage() {
 
 function anagrammedName(name) {
 	// Thanks, Internet Anagram Server!
-	
+	console.log("input name:_" + name + "_" + name=="Doug Engelbart");
+
 	if (name == "Doug Engelbart") {
 		return "Notable Grudge";
 	} 
